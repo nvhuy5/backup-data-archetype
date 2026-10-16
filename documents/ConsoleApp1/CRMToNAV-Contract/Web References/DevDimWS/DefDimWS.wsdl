@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<definitions xmlns:tns="urn:microsoft-dynamics-schemas/codeunit/DefDimWS" targetNamespace="urn:microsoft-dynamics-schemas/codeunit/DefDimWS" xmlns="http://schemas.xmlsoap.org/wsdl/">
+  <types>
+    <schema elementFormDefault="qualified" targetNamespace="urn:microsoft-dynamics-schemas/codeunit/DefDimWS" xmlns="http://www.w3.org/2001/XMLSchema">
+      <element name="AddDimension">
+        <complexType>
+          <sequence>
+            <element minOccurs="1" maxOccurs="1" name="tableID" type="int" />
+            <element minOccurs="1" maxOccurs="1" name="dimensionCode" type="string" />
+            <element minOccurs="1" maxOccurs="1" name="dimensionValue" type="string" />
+            <element minOccurs="1" maxOccurs="1" name="dimensionName" type="string" />
+            <element minOccurs="1" maxOccurs="1" name="documentNo" type="string" />
+          </sequence>
+        </complexType>
+      </element>
+      <element name="AddDimension_Result">
+        <complexType>
+          <sequence />
+        </complexType>
+      </element>
+    </schema>
+  </types>
+  <message name="AddDimension">
+    <part name="parameters" element="tns:AddDimension" />
+  </message>
+  <message name="AddDimension_Result">
+    <part name="parameters" element="tns:AddDimension_Result" />
+  </message>
+  <portType name="DefDimWS_Port">
+    <operation name="AddDimension">
+      <input name="AddDimension" message="tns:AddDimension" />
+      <output name="AddDimension_Result" message="tns:AddDimension_Result" />
+    </operation>
+  </portType>
+  <binding name="DefDimWS_Binding" type="tns:DefDimWS_Port">
+    <binding transport="http://schemas.xmlsoap.org/soap/http" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+    <operation name="AddDimension">
+      <operation soapAction="urn:microsoft-dynamics-schemas/codeunit/DefDimWS:AddDimension" style="document" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+      <input name="AddDimension">
+        <body use="literal" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+      </input>
+      <output name="AddDimension_Result">
+        <body use="literal" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+      </output>
+    </operation>
+  </binding>
+  <service name="DefDimWS">
+    <port name="DefDimWS_Port" binding="tns:DefDimWS_Binding">
+      <address location="http://act-nav2013.archetype-group.com:9077/Local/WS/Archetype%20HCM/Codeunit/DefDimWS" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+    </port>
+  </service>
+</definitions>

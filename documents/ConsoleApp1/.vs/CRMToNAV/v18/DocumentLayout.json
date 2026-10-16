@@ -1,0 +1,41 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Archetype-DataWarehouse\\documents\\ConsoleApp1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{30FB0EB5-7170-480E-B7A0-8E6D33FB0CCE}|CRMToNAV-Contract\\CRMToNAV-Contract.csproj|d:\\archetype-datawarehouse\\documents\\consoleapp1\\crmtonav-contract\\clientsynchro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{30FB0EB5-7170-480E-B7A0-8E6D33FB0CCE}|CRMToNAV-Contract\\CRMToNAV-Contract.csproj|solutionrelative:crmtonav-contract\\clientsynchro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{269a02dc-6af8-11d3-bdc4-00c04f688e50}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ClientSynchro.cs",
+              "DocumentMoniker": "D:\\Archetype-DataWarehouse\\documents\\ConsoleApp1\\CRMToNAV-Contract\\ClientSynchro.cs",
+              "RelativeDocumentMoniker": "CRMToNAV-Contract\\ClientSynchro.cs",
+              "ToolTip": "D:\\Archetype-DataWarehouse\\documents\\ConsoleApp1\\CRMToNAV-Contract\\ClientSynchro.cs",
+              "RelativeToolTip": "CRMToNAV-Contract\\ClientSynchro.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADUAAAB6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-15T09:05:40.354Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="ConsoleApp1.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="ConsoleApp1_NavWS_Client_Service" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://act-nav2013.archetype-group.com:9077/Local/WS/Archetype%20HCM/Page/Client</Value>
+    </Setting>
+    <Setting Name="ConsoleApp1_CustNumber_CustNumber_Service" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://act-nav2013.archetype-group.com:9077/Local/WS/Archetype%20HCM/Page/CustNumber</Value>
+    </Setting>
+    <Setting Name="MailRecipients" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">hien.ntt@archetype-group.com</Value>
+    </Setting>
+    <Setting Name="IsTest" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">no</Value>
+    </Setting>
+    <Setting Name="ConsoleApp1_ContractsWS_Contracts_Service" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://act-nav2013.archetype-group.com:9077/Local/WS/Archetype%20HCM/Page/Contracts</Value>
+    </Setting>
+    <Setting Name="ConsoleApp1_DevDimWS_DefDimWS" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://act-nav2013.archetype-group.com:9077/Local/WS/Archetype%20HCM/Codeunit/DefDimWS</Value>
+    </Setting>
+    <Setting Name="ConsoleApp1_DimValueWS_DimValueWS_Service" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://act-nav2013.archetype-group.com:9077/Local/WS/Archetype%20HCM/Page/DimValueWS</Value>
+    </Setting>
+    <Setting Name="ConsoleApp1_IntranetCodes_IntranetCodes_Service" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://act-nav2013.archetype-group.com:9077/Local/WS/Archetype%20HCM/Page/IntranetCodes</Value>
+    </Setting>
+    <Setting Name="ConsoleApp1_IntranetInsertNAVWS_IntranetInsertNAVWS" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://act-nav2013.archetype-group.com:9077/Local/WS/Archetype%20HCM/Codeunit/IntranetInsertNAVWS</Value>
+    </Setting>
+    <Setting Name="ConsoleApp1_PaySchIntegration_PaySchIntegration" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://act-nav2013.archetype-group.com:9077/Local/WS/Archetype%20HCM/Codeunit/PaySchIntegration</Value>
+    </Setting>
+    <Setting Name="eprojectWSTest" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">http://staging.archetype-intranet.com/timesheet/services/index.php</Value>
+    </Setting>
+    <Setting Name="eprojectWSLive" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">https://archetype-intranet.com/public/services/index.php</Value>
+    </Setting>
+    <Setting Name="TSWSTest" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">http://staging.archetype-intranet.com/timesheet/services/index.php</Value>
+    </Setting>
+    <Setting Name="TSWSLive" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">https://archetype-intranet.com/public/services/index.php</Value>
+    </Setting>
+    <Setting Name="NavTestServer" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">act-nav2013.archetype-group.com:9077/Local</Value>
+    </Setting>
+    <Setting Name="SMTPHost" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">archetypegroup-com02c.mail.protection.outlook.com</Value>
+    </Setting>
+    <Setting Name="SMTPUser" Type="System.String" Scope="Application">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="SMTPPass" Type="System.String" Scope="Application">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="IntranetSQL" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">server=10.0.1.110;userid=archetype_intranet_admin;password=KD5Y5LpT5XGzFyud;database=archetype_intranet</Value>
+    </Setting>
+    <Setting Name="NavPass" Type="System.String" Scope="User">
+      <Value Profile="(Default)">56BN2#mkIK^</Value>
+    </Setting>
+    <Setting Name="NavUser" Type="System.String" Scope="User">
+      <Value Profile="(Default)">nav.admin@archetype-group.com</Value>
+    </Setting>
+    <Setting Name="NavSQL" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Server=act-nav2013.archetype-group.com;User ID=usr_etl;Password=123qwe!@#$%;Database=Datawarehouse_ACT;</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

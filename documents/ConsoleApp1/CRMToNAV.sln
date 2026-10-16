@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35013.160
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CRMToNAV-Contract", "CRMToNAV-Contract\CRMToNAV-Contract.csproj", "{30FB0EB5-7170-480E-B7A0-8E6D33FB0CCE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{30FB0EB5-7170-480E-B7A0-8E6D33FB0CCE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30FB0EB5-7170-480E-B7A0-8E6D33FB0CCE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30FB0EB5-7170-480E-B7A0-8E6D33FB0CCE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30FB0EB5-7170-480E-B7A0-8E6D33FB0CCE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E42BB4CB-9210-47C3-AF91-01DEEB2218BA}
+	EndGlobalSection
+EndGlobal

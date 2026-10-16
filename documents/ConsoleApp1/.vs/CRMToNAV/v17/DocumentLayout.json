@@ -1,0 +1,155 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\loup.rouan\\Desktop\\ConsoleApp1withPaySchIntegration\\ConsoleApp1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{30FB0EB5-7170-480E-B7A0-8E6D33FB0CCE}|CRMToNAV-Contract\\CRMToNAV-Contract.csproj|c:\\users\\loup.rouan\\desktop\\consoleapp1withpayschintegration\\consoleapp1\\crmtonav-contract\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{30FB0EB5-7170-480E-B7A0-8E6D33FB0CCE}|CRMToNAV-Contract\\CRMToNAV-Contract.csproj|solutionrelative:crmtonav-contract\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{30FB0EB5-7170-480E-B7A0-8E6D33FB0CCE}|CRMToNAV-Contract\\CRMToNAV-Contract.csproj|C:\\Users\\loup.rouan\\Desktop\\ConsoleApp1withPaySchIntegration\\ConsoleApp1\\crmtonav-contract\\mqmessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{30FB0EB5-7170-480E-B7A0-8E6D33FB0CCE}|CRMToNAV-Contract\\CRMToNAV-Contract.csproj|solutionrelative:crmtonav-contract\\mqmessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\loup.rouan\\AppData\\Local\\Temp\\.vsdbgsrc\\55740a3dcb72a6928d16a770a230f610ec7becdf5ffb094d29d2d70d93f1e5be\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\loup.rouan\\AppData\\Local\\Temp\\.vsdbgsrc\\e13a3637d1c30ddc1b62301ecd64ca3be4fc62b756289089fb100c582c910cc6\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|CRMToNAV-Contract||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{30FB0EB5-7170-480E-B7A0-8E6D33FB0CCE}|CRMToNAV-Contract\\CRMToNAV-Contract.csproj|C:\\Users\\loup.rouan\\Desktop\\ConsoleApp1withPaySchIntegration\\ConsoleApp1\\crmtonav-contract\\properties\\settings.settings||{6D2695F9-5365-4A78-89ED-F205C045BFE6}",
+      "RelativeMoniker": "D:0:0:{30FB0EB5-7170-480E-B7A0-8E6D33FB0CCE}|CRMToNAV-Contract\\CRMToNAV-Contract.csproj|solutionrelative:crmtonav-contract\\properties\\settings.settings||{6D2695F9-5365-4A78-89ED-F205C045BFE6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{30FB0EB5-7170-480E-B7A0-8E6D33FB0CCE}|CRMToNAV-Contract\\CRMToNAV-Contract.csproj|C:\\Users\\loup.rouan\\Desktop\\ConsoleApp1withPaySchIntegration\\ConsoleApp1\\crmtonav-contract\\properties\\settings.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{30FB0EB5-7170-480E-B7A0-8E6D33FB0CCE}|CRMToNAV-Contract\\CRMToNAV-Contract.csproj|solutionrelative:crmtonav-contract\\properties\\settings.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{30FB0EB5-7170-480E-B7A0-8E6D33FB0CCE}|CRMToNAV-Contract\\CRMToNAV-Contract.csproj|C:\\Users\\loup.rouan\\Desktop\\ConsoleApp1withPaySchIntegration\\ConsoleApp1\\crmtonav-contract\\intranetmailing.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{30FB0EB5-7170-480E-B7A0-8E6D33FB0CCE}|CRMToNAV-Contract\\CRMToNAV-Contract.csproj|solutionrelative:crmtonav-contract\\intranetmailing.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CRMToNAV-Contract",
+              "DocumentMoniker": "C:\\Users\\loup.rouan\\Desktop\\ConsoleApp1withPaySchIntegration\\ConsoleApp1\\CRMToNAV-Contract\\CRMToNAV-Contract.csproj",
+              "RelativeDocumentMoniker": "CRMToNAV-Contract\\CRMToNAV-Contract.csproj",
+              "ToolTip": "C:\\Users\\loup.rouan\\Desktop\\ConsoleApp1withPaySchIntegration\\ConsoleApp1\\CRMToNAV-Contract\\CRMToNAV-Contract.csproj",
+              "RelativeToolTip": "CRMToNAV-Contract\\CRMToNAV-Contract.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-11-28T08:23:06.55Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\loup.rouan\\Desktop\\ConsoleApp1withPaySchIntegration\\ConsoleApp1\\CRMToNAV-Contract\\Program.cs",
+              "RelativeDocumentMoniker": "CRMToNAV-Contract\\Program.cs",
+              "ToolTip": "C:\\Users\\loup.rouan\\Desktop\\ConsoleApp1withPaySchIntegration\\ConsoleApp1\\CRMToNAV-Contract\\Program.cs",
+              "RelativeToolTip": "CRMToNAV-Contract\\Program.cs",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAAwCcAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-17T09:50:19.017Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Settings.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\loup.rouan\\Desktop\\ConsoleApp1withPaySchIntegration\\ConsoleApp1\\CRMToNAV-Contract\\Properties\\Settings.Designer.cs",
+              "RelativeDocumentMoniker": "CRMToNAV-Contract\\Properties\\Settings.Designer.cs",
+              "ToolTip": "C:\\Users\\loup.rouan\\Desktop\\ConsoleApp1withPaySchIntegration\\ConsoleApp1\\CRMToNAV-Contract\\Properties\\Settings.Designer.cs",
+              "RelativeToolTip": "CRMToNAV-Contract\\Properties\\Settings.Designer.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAIwA8AAABjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-17T09:36:09.513Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Settings.settings",
+              "DocumentMoniker": "C:\\Users\\loup.rouan\\Desktop\\ConsoleApp1withPaySchIntegration\\ConsoleApp1\\CRMToNAV-Contract\\Properties\\Settings.settings",
+              "RelativeDocumentMoniker": "CRMToNAV-Contract\\Properties\\Settings.settings",
+              "ToolTip": "C:\\Users\\loup.rouan\\Desktop\\ConsoleApp1withPaySchIntegration\\ConsoleApp1\\CRMToNAV-Contract\\Properties\\Settings.settings",
+              "RelativeToolTip": "CRMToNAV-Contract\\Properties\\Settings.settings",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002767|",
+              "WhenOpened": "2025-11-12T07:31:11.851Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IntranetMailing.cs",
+              "DocumentMoniker": "C:\\Users\\loup.rouan\\Desktop\\ConsoleApp1withPaySchIntegration\\ConsoleApp1\\CRMToNAV-Contract\\IntranetMailing.cs",
+              "RelativeDocumentMoniker": "CRMToNAV-Contract\\IntranetMailing.cs",
+              "ToolTip": "C:\\Users\\loup.rouan\\Desktop\\ConsoleApp1withPaySchIntegration\\ConsoleApp1\\CRMToNAV-Contract\\IntranetMailing.cs",
+              "RelativeToolTip": "CRMToNAV-Contract\\IntranetMailing.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAewAwAAACDAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-29T08:35:35.569Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MQMessage.cs",
+              "DocumentMoniker": "C:\\Users\\loup.rouan\\Desktop\\ConsoleApp1withPaySchIntegration\\ConsoleApp1\\CRMToNAV-Contract\\MQMessage.cs",
+              "RelativeDocumentMoniker": "CRMToNAV-Contract\\MQMessage.cs",
+              "ToolTip": "C:\\Users\\loup.rouan\\Desktop\\ConsoleApp1withPaySchIntegration\\ConsoleApp1\\CRMToNAV-Contract\\MQMessage.cs",
+              "RelativeToolTip": "CRMToNAV-Contract\\MQMessage.cs",
+              "ViewState": "AQIAAHIAAAAAAAAAAAAowJcAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-17T09:51:08.311Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\loup.rouan\\AppData\\Local\\Temp\\.vsdbgsrc\\55740a3dcb72a6928d16a770a230f610ec7becdf5ffb094d29d2d70d93f1e5be\\Program.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\AppData\\Local\\Temp\\.vsdbgsrc\\55740a3dcb72a6928d16a770a230f610ec7becdf5ffb094d29d2d70d93f1e5be\\Program.cs",
+              "ToolTip": "C:\\Users\\loup.rouan\\AppData\\Local\\Temp\\.vsdbgsrc\\55740a3dcb72a6928d16a770a230f610ec7becdf5ffb094d29d2d70d93f1e5be\\Program.cs [Read Only]",
+              "RelativeToolTip": "..\\..\\..\\AppData\\Local\\Temp\\.vsdbgsrc\\55740a3dcb72a6928d16a770a230f610ec7becdf5ffb094d29d2d70d93f1e5be\\Program.cs [Read Only]",
+              "ViewState": "AQIAAF0AAAAAAAAAAAAwwGYAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-28T08:42:24.733Z",
+              "EditorCaption": " [Read Only]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\loup.rouan\\AppData\\Local\\Temp\\.vsdbgsrc\\e13a3637d1c30ddc1b62301ecd64ca3be4fc62b756289089fb100c582c910cc6\\Program.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\AppData\\Local\\Temp\\.vsdbgsrc\\e13a3637d1c30ddc1b62301ecd64ca3be4fc62b756289089fb100c582c910cc6\\Program.cs",
+              "ToolTip": "C:\\Users\\loup.rouan\\AppData\\Local\\Temp\\.vsdbgsrc\\e13a3637d1c30ddc1b62301ecd64ca3be4fc62b756289089fb100c582c910cc6\\Program.cs [Read Only]",
+              "RelativeToolTip": "..\\..\\..\\AppData\\Local\\Temp\\.vsdbgsrc\\e13a3637d1c30ddc1b62301ecd64ca3be4fc62b756289089fb100c582c910cc6\\Program.cs [Read Only]",
+              "ViewState": "AQIAABIAAAAAAAAAAAAwwE4AAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-28T09:00:00.921Z",
+              "EditorCaption": " [Read Only]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

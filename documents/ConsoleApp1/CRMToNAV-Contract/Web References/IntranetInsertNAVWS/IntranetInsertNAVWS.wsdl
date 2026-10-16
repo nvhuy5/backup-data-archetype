@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<definitions xmlns:tns="urn:microsoft-dynamics-schemas/codeunit/IntranetInsertNAVWS" targetNamespace="urn:microsoft-dynamics-schemas/codeunit/IntranetInsertNAVWS" xmlns="http://schemas.xmlsoap.org/wsdl/">
+  <types>
+    <schema elementFormDefault="qualified" targetNamespace="urn:microsoft-dynamics-schemas/codeunit/IntranetInsertNAVWS" xmlns="http://www.w3.org/2001/XMLSchema">
+      <element name="InsertIntoIntranet">
+        <complexType>
+          <sequence>
+            <element minOccurs="1" maxOccurs="1" name="paramDataset" type="int" />
+            <element minOccurs="1" maxOccurs="1" name="text_1" type="string" />
+            <element minOccurs="1" maxOccurs="1" name="text_2" type="string" />
+            <element minOccurs="1" maxOccurs="1" name="text_10" type="string" />
+          </sequence>
+        </complexType>
+      </element>
+      <element name="InsertIntoIntranet_Result">
+        <complexType>
+          <sequence />
+        </complexType>
+      </element>
+      <element name="LoadXML">
+        <complexType>
+          <sequence>
+            <element minOccurs="1" maxOccurs="1" name="xMLDocObj" type="string" />
+          </sequence>
+        </complexType>
+      </element>
+      <element name="LoadXML_Result">
+        <complexType>
+          <sequence />
+        </complexType>
+      </element>
+      <element name="GetNextIndex">
+        <complexType>
+          <sequence>
+            <element minOccurs="1" maxOccurs="1" name="paramDataset" type="int" />
+          </sequence>
+        </complexType>
+      </element>
+      <element name="GetNextIndex_Result">
+        <complexType>
+          <sequence>
+            <element minOccurs="1" maxOccurs="1" name="return_value" type="int" />
+          </sequence>
+        </complexType>
+      </element>
+    </schema>
+  </types>
+  <message name="InsertIntoIntranet">
+    <part name="parameters" element="tns:InsertIntoIntranet" />
+  </message>
+  <message name="InsertIntoIntranet_Result">
+    <part name="parameters" element="tns:InsertIntoIntranet_Result" />
+  </message>
+  <message name="LoadXML">
+    <part name="parameters" element="tns:LoadXML" />
+  </message>
+  <message name="LoadXML_Result">
+    <part name="parameters" element="tns:LoadXML_Result" />
+  </message>
+  <message name="GetNextIndex">
+    <part name="parameters" element="tns:GetNextIndex" />
+  </message>
+  <message name="GetNextIndex_Result">
+    <part name="parameters" element="tns:GetNextIndex_Result" />
+  </message>
+  <portType name="IntranetInsertNAVWS_Port">
+    <operation name="InsertIntoIntranet">
+      <input name="InsertIntoIntranet" message="tns:InsertIntoIntranet" />
+      <output name="InsertIntoIntranet_Result" message="tns:InsertIntoIntranet_Result" />
+    </operation>
+    <operation name="LoadXML">
+      <input name="LoadXML" message="tns:LoadXML" />
+      <output name="LoadXML_Result" message="tns:LoadXML_Result" />
+    </operation>
+    <operation name="GetNextIndex">
+      <input name="GetNextIndex" message="tns:GetNextIndex" />
+      <output name="GetNextIndex_Result" message="tns:GetNextIndex_Result" />
+    </operation>
+  </portType>
+  <binding name="IntranetInsertNAVWS_Binding" type="tns:IntranetInsertNAVWS_Port">
+    <binding transport="http://schemas.xmlsoap.org/soap/http" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+    <operation name="InsertIntoIntranet">
+      <operation soapAction="urn:microsoft-dynamics-schemas/codeunit/IntranetInsertNAVWS:InsertIntoIntranet" style="document" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+      <input name="InsertIntoIntranet">
+        <body use="literal" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+      </input>
+      <output name="InsertIntoIntranet_Result">
+        <body use="literal" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+      </output>
+    </operation>
+    <operation name="LoadXML">
+      <operation soapAction="urn:microsoft-dynamics-schemas/codeunit/IntranetInsertNAVWS:LoadXML" style="document" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+      <input name="LoadXML">
+        <body use="literal" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+      </input>
+      <output name="LoadXML_Result">
+        <body use="literal" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+      </output>
+    </operation>
+    <operation name="GetNextIndex">
+      <operation soapAction="urn:microsoft-dynamics-schemas/codeunit/IntranetInsertNAVWS:GetNextIndex" style="document" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+      <input name="GetNextIndex">
+        <body use="literal" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+      </input>
+      <output name="GetNextIndex_Result">
+        <body use="literal" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+      </output>
+    </operation>
+  </binding>
+  <service name="IntranetInsertNAVWS">
+    <port name="IntranetInsertNAVWS_Port" binding="tns:IntranetInsertNAVWS_Binding">
+      <address location="http://act-nav2013.archetype-group.com:9077/Local/WS/Archetype%20HCM/Codeunit/IntranetInsertNAVWS" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+    </port>
+  </service>
+</definitions>

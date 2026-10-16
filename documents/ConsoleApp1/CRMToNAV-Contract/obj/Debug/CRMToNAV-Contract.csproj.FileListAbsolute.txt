@@ -1,0 +1,91 @@
+C:\Users\loup.rouan\source\repos\ConsoleApp1\CRMToNAV-Contract\bin\Debug\ConsoleApp1.exe.config
+C:\Users\loup.rouan\source\repos\ConsoleApp1\CRMToNAV-Contract\bin\Debug\ConsoleApp1.exe
+C:\Users\loup.rouan\source\repos\ConsoleApp1\CRMToNAV-Contract\bin\Debug\ConsoleApp1.pdb
+C:\Users\loup.rouan\source\repos\ConsoleApp1\CRMToNAV-Contract\bin\Debug\EasyNetQ.dll
+C:\Users\loup.rouan\source\repos\ConsoleApp1\CRMToNAV-Contract\bin\Debug\Microsoft.Diagnostics.Tracing.EventSource.dll
+C:\Users\loup.rouan\source\repos\ConsoleApp1\CRMToNAV-Contract\bin\Debug\MySql.Data.dll
+C:\Users\loup.rouan\source\repos\ConsoleApp1\CRMToNAV-Contract\bin\Debug\Newtonsoft.Json.dll
+C:\Users\loup.rouan\source\repos\ConsoleApp1\CRMToNAV-Contract\bin\Debug\RabbitMQ.Client.dll
+C:\Users\loup.rouan\source\repos\ConsoleApp1\CRMToNAV-Contract\bin\Debug\EasyNetQ.xml
+C:\Users\loup.rouan\source\repos\ConsoleApp1\CRMToNAV-Contract\bin\Debug\Microsoft.Diagnostics.Tracing.EventSource.xml
+C:\Users\loup.rouan\source\repos\ConsoleApp1\CRMToNAV-Contract\bin\Debug\MySql.Data.xml
+C:\Users\loup.rouan\source\repos\ConsoleApp1\CRMToNAV-Contract\bin\Debug\Newtonsoft.Json.xml
+C:\Users\loup.rouan\source\repos\ConsoleApp1\CRMToNAV-Contract\bin\Debug\RabbitMQ.Client.xml
+C:\Users\loup.rouan\source\repos\ConsoleApp1\CRMToNAV-Contract\obj\Debug\CRMToNAV-Contract.csprojResolveAssemblyReference.cache
+C:\Users\loup.rouan\source\repos\ConsoleApp1\CRMToNAV-Contract\obj\Debug\CRMToNAV-Contract.csproj.CoreCompileInputs.cache
+C:\Users\loup.rouan\source\repos\ConsoleApp1\CRMToNAV-Contract\obj\Debug\ConsoleApp1.exe
+C:\Users\loup.rouan\source\repos\ConsoleApp1\CRMToNAV-Contract\obj\Debug\ConsoleApp1.pdb
+E:\Dayan\Work\Task Documentations\Payment Schedule Integration\byLoupforRef\ConsoleApp1\CRMToNAV-Contract\bin\Debug\ConsoleApp1.exe.config
+E:\Dayan\Work\Task Documentations\Payment Schedule Integration\byLoupforRef\ConsoleApp1\CRMToNAV-Contract\bin\Debug\ConsoleApp1.exe
+E:\Dayan\Work\Task Documentations\Payment Schedule Integration\byLoupforRef\ConsoleApp1\CRMToNAV-Contract\bin\Debug\ConsoleApp1.pdb
+E:\Dayan\Work\Task Documentations\Payment Schedule Integration\byLoupforRef\ConsoleApp1\CRMToNAV-Contract\bin\Debug\EasyNetQ.dll
+E:\Dayan\Work\Task Documentations\Payment Schedule Integration\byLoupforRef\ConsoleApp1\CRMToNAV-Contract\bin\Debug\Microsoft.Diagnostics.Tracing.EventSource.dll
+E:\Dayan\Work\Task Documentations\Payment Schedule Integration\byLoupforRef\ConsoleApp1\CRMToNAV-Contract\bin\Debug\MySql.Data.dll
+E:\Dayan\Work\Task Documentations\Payment Schedule Integration\byLoupforRef\ConsoleApp1\CRMToNAV-Contract\bin\Debug\Newtonsoft.Json.dll
+E:\Dayan\Work\Task Documentations\Payment Schedule Integration\byLoupforRef\ConsoleApp1\CRMToNAV-Contract\bin\Debug\RabbitMQ.Client.dll
+E:\Dayan\Work\Task Documentations\Payment Schedule Integration\byLoupforRef\ConsoleApp1\CRMToNAV-Contract\bin\Debug\EasyNetQ.xml
+E:\Dayan\Work\Task Documentations\Payment Schedule Integration\byLoupforRef\ConsoleApp1\CRMToNAV-Contract\bin\Debug\Microsoft.Diagnostics.Tracing.EventSource.xml
+E:\Dayan\Work\Task Documentations\Payment Schedule Integration\byLoupforRef\ConsoleApp1\CRMToNAV-Contract\bin\Debug\MySql.Data.xml
+E:\Dayan\Work\Task Documentations\Payment Schedule Integration\byLoupforRef\ConsoleApp1\CRMToNAV-Contract\bin\Debug\Newtonsoft.Json.xml
+E:\Dayan\Work\Task Documentations\Payment Schedule Integration\byLoupforRef\ConsoleApp1\CRMToNAV-Contract\bin\Debug\RabbitMQ.Client.xml
+E:\Dayan\Work\Task Documentations\Payment Schedule Integration\byLoupforRef\ConsoleApp1\CRMToNAV-Contract\obj\Debug\CRMToNAV-Contract.csprojResolveAssemblyReference.cache
+E:\Dayan\Work\Task Documentations\Payment Schedule Integration\byLoupforRef\ConsoleApp1\CRMToNAV-Contract\obj\Debug\CRMToNAV-Contract.csproj.CoreCompileInputs.cache
+E:\Dayan\Work\Task Documentations\Payment Schedule Integration\byLoupforRef\ConsoleApp1\CRMToNAV-Contract\obj\Debug\ConsoleApp1.exe
+E:\Dayan\Work\Task Documentations\Payment Schedule Integration\byLoupforRef\ConsoleApp1\CRMToNAV-Contract\obj\Debug\ConsoleApp1.pdb
+C:\Users\loup.rouan\Desktop\ConsoleApp1withPaySchIntegration\ConsoleApp1\CRMToNAV-Contract\bin\Debug\ConsoleApp1.exe.config
+C:\Users\loup.rouan\Desktop\ConsoleApp1withPaySchIntegration\ConsoleApp1\CRMToNAV-Contract\bin\Debug\ConsoleApp1.exe
+C:\Users\loup.rouan\Desktop\ConsoleApp1withPaySchIntegration\ConsoleApp1\CRMToNAV-Contract\bin\Debug\ConsoleApp1.pdb
+C:\Users\loup.rouan\Desktop\ConsoleApp1withPaySchIntegration\ConsoleApp1\CRMToNAV-Contract\bin\Debug\EasyNetQ.dll
+C:\Users\loup.rouan\Desktop\ConsoleApp1withPaySchIntegration\ConsoleApp1\CRMToNAV-Contract\bin\Debug\Microsoft.Diagnostics.Tracing.EventSource.dll
+C:\Users\loup.rouan\Desktop\ConsoleApp1withPaySchIntegration\ConsoleApp1\CRMToNAV-Contract\bin\Debug\MySql.Data.dll
+C:\Users\loup.rouan\Desktop\ConsoleApp1withPaySchIntegration\ConsoleApp1\CRMToNAV-Contract\bin\Debug\Newtonsoft.Json.dll
+C:\Users\loup.rouan\Desktop\ConsoleApp1withPaySchIntegration\ConsoleApp1\CRMToNAV-Contract\bin\Debug\RabbitMQ.Client.dll
+C:\Users\loup.rouan\Desktop\ConsoleApp1withPaySchIntegration\ConsoleApp1\CRMToNAV-Contract\bin\Debug\EasyNetQ.xml
+C:\Users\loup.rouan\Desktop\ConsoleApp1withPaySchIntegration\ConsoleApp1\CRMToNAV-Contract\bin\Debug\Microsoft.Diagnostics.Tracing.EventSource.xml
+C:\Users\loup.rouan\Desktop\ConsoleApp1withPaySchIntegration\ConsoleApp1\CRMToNAV-Contract\bin\Debug\MySql.Data.xml
+C:\Users\loup.rouan\Desktop\ConsoleApp1withPaySchIntegration\ConsoleApp1\CRMToNAV-Contract\bin\Debug\Newtonsoft.Json.xml
+C:\Users\loup.rouan\Desktop\ConsoleApp1withPaySchIntegration\ConsoleApp1\CRMToNAV-Contract\bin\Debug\RabbitMQ.Client.xml
+C:\Users\loup.rouan\Desktop\ConsoleApp1withPaySchIntegration\ConsoleApp1\CRMToNAV-Contract\obj\Debug\CRMToNAV-Contract.csproj.CoreCompileInputs.cache
+C:\Users\loup.rouan\Desktop\ConsoleApp1withPaySchIntegration\ConsoleApp1\CRMToNAV-Contract\obj\Debug\ConsoleApp1.exe
+C:\Users\loup.rouan\Desktop\ConsoleApp1withPaySchIntegration\ConsoleApp1\CRMToNAV-Contract\obj\Debug\ConsoleApp1.pdb
+C:\Users\loup.rouan\Desktop\ConsoleApp1withPaySchIntegration\ConsoleApp1\CRMToNAV-Contract\obj\Debug\CRMToNAV-Contract.csproj.AssemblyReference.cache
+C:\Users\loup.rouan\Desktop\ConsoleApp1withPaySchIntegration\ConsoleApp1\CRMToNAV-Contract\obj\Debug\CRMToNAV.109B74AF.Up2Date
+C:\Users\loup.rouan\Desktop\ConsoleApp1withPaySchIntegration\ConsoleApp1\CRMToNAV-Contract\obj\Debug\CRMToNAV-Contract.csproj.SuggestedBindingRedirects.cache
+C:\Users\loup.rouan\Desktop\ConsoleApp1withPaySchIntegration\ConsoleApp1\CRMToNAV-Contract\obj\Debug\ConsoleApp1.exe.config
+C:\Users\loup.rouan\Desktop\ConsoleApp1withPaySchIntegration\ConsoleApp1\CRMToNAV-Contract\bin\Debug\System.Memory.dll
+C:\Users\loup.rouan\Desktop\ConsoleApp1withPaySchIntegration\ConsoleApp1\CRMToNAV-Contract\bin\Debug\System.Text.Json.dll
+C:\Users\loup.rouan\Desktop\ConsoleApp1withPaySchIntegration\ConsoleApp1\CRMToNAV-Contract\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\loup.rouan\Desktop\ConsoleApp1withPaySchIntegration\ConsoleApp1\CRMToNAV-Contract\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\loup.rouan\Desktop\ConsoleApp1withPaySchIntegration\ConsoleApp1\CRMToNAV-Contract\bin\Debug\System.Buffers.dll
+C:\Users\loup.rouan\Desktop\ConsoleApp1withPaySchIntegration\ConsoleApp1\CRMToNAV-Contract\bin\Debug\System.ValueTuple.dll
+C:\Users\loup.rouan\Desktop\ConsoleApp1withPaySchIntegration\ConsoleApp1\CRMToNAV-Contract\bin\Debug\System.Text.Encodings.Web.dll
+C:\Users\loup.rouan\Desktop\ConsoleApp1withPaySchIntegration\ConsoleApp1\CRMToNAV-Contract\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\loup.rouan\Desktop\ConsoleApp1withPaySchIntegration\ConsoleApp1\CRMToNAV-Contract\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Archetype-DataWarehouse\documents\ConsoleApp1\CRMToNAV-Contract\bin\Debug\ConsoleApp1.exe.config
+D:\Archetype-DataWarehouse\documents\ConsoleApp1\CRMToNAV-Contract\bin\Debug\ConsoleApp1.exe
+D:\Archetype-DataWarehouse\documents\ConsoleApp1\CRMToNAV-Contract\bin\Debug\ConsoleApp1.pdb
+D:\Archetype-DataWarehouse\documents\ConsoleApp1\CRMToNAV-Contract\bin\Debug\EasyNetQ.dll
+D:\Archetype-DataWarehouse\documents\ConsoleApp1\CRMToNAV-Contract\bin\Debug\Microsoft.Diagnostics.Tracing.EventSource.dll
+D:\Archetype-DataWarehouse\documents\ConsoleApp1\CRMToNAV-Contract\bin\Debug\MySql.Data.dll
+D:\Archetype-DataWarehouse\documents\ConsoleApp1\CRMToNAV-Contract\bin\Debug\Newtonsoft.Json.dll
+D:\Archetype-DataWarehouse\documents\ConsoleApp1\CRMToNAV-Contract\bin\Debug\RabbitMQ.Client.dll
+D:\Archetype-DataWarehouse\documents\ConsoleApp1\CRMToNAV-Contract\bin\Debug\System.Memory.dll
+D:\Archetype-DataWarehouse\documents\ConsoleApp1\CRMToNAV-Contract\bin\Debug\System.Numerics.Vectors.dll
+D:\Archetype-DataWarehouse\documents\ConsoleApp1\CRMToNAV-Contract\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\Archetype-DataWarehouse\documents\ConsoleApp1\CRMToNAV-Contract\bin\Debug\System.Buffers.dll
+D:\Archetype-DataWarehouse\documents\ConsoleApp1\CRMToNAV-Contract\bin\Debug\System.ValueTuple.dll
+D:\Archetype-DataWarehouse\documents\ConsoleApp1\CRMToNAV-Contract\bin\Debug\System.Text.Encodings.Web.dll
+D:\Archetype-DataWarehouse\documents\ConsoleApp1\CRMToNAV-Contract\bin\Debug\System.Threading.Tasks.Extensions.dll
+D:\Archetype-DataWarehouse\documents\ConsoleApp1\CRMToNAV-Contract\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Archetype-DataWarehouse\documents\ConsoleApp1\CRMToNAV-Contract\bin\Debug\EasyNetQ.xml
+D:\Archetype-DataWarehouse\documents\ConsoleApp1\CRMToNAV-Contract\bin\Debug\Microsoft.Diagnostics.Tracing.EventSource.xml
+D:\Archetype-DataWarehouse\documents\ConsoleApp1\CRMToNAV-Contract\bin\Debug\MySql.Data.xml
+D:\Archetype-DataWarehouse\documents\ConsoleApp1\CRMToNAV-Contract\bin\Debug\Newtonsoft.Json.xml
+D:\Archetype-DataWarehouse\documents\ConsoleApp1\CRMToNAV-Contract\bin\Debug\RabbitMQ.Client.xml
+D:\Archetype-DataWarehouse\documents\ConsoleApp1\CRMToNAV-Contract\obj\Debug\CRMToNAV-Contract.csproj.AssemblyReference.cache
+D:\Archetype-DataWarehouse\documents\ConsoleApp1\CRMToNAV-Contract\obj\Debug\CRMToNAV-Contract.csproj.SuggestedBindingRedirects.cache
+D:\Archetype-DataWarehouse\documents\ConsoleApp1\CRMToNAV-Contract\obj\Debug\ConsoleApp1.exe.config
+D:\Archetype-DataWarehouse\documents\ConsoleApp1\CRMToNAV-Contract\obj\Debug\CRMToNAV-Contract.csproj.CoreCompileInputs.cache
+D:\Archetype-DataWarehouse\documents\ConsoleApp1\CRMToNAV-Contract\obj\Debug\CRMToNAV.109B74AF.Up2Date
+D:\Archetype-DataWarehouse\documents\ConsoleApp1\CRMToNAV-Contract\obj\Debug\ConsoleApp1.exe
+D:\Archetype-DataWarehouse\documents\ConsoleApp1\CRMToNAV-Contract\obj\Debug\ConsoleApp1.pdb

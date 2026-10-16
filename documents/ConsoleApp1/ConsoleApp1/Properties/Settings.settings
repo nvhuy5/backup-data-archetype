@@ -1,0 +1,30 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="ConsoleApp1.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="ConsoleApp1_NavWS_Client_Service" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://act-nav2013.archetype-group.com:9077/Local/WS/Archetype%20HCM/Page/Client</Value>
+    </Setting>
+    <Setting Name="ConsoleApp1_CustNumber_CustNumber_Service" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://act-nav2013.archetype-group.com:9077/Local/WS/Archetype%20HCM/Page/CustNumber</Value>
+    </Setting>
+    <Setting Name="IntranetSQL" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">server=archetype-intranet.com;userid=archeint_dbuser;password=_T5mW!qh7ee@U_;database=archeint_intranet</Value>
+    </Setting>
+    <Setting Name="MailRecipients" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">dev-support@archetype-group.com</Value>
+    </Setting>
+    <Setting Name="IsTest" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">yes</Value>
+    </Setting>
+    <Setting Name="SMTPHost" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">archetype-intranet.com</Value>
+    </Setting>
+    <Setting Name="SMTPUser" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">archetype@sophiestudio5.com</Value>
+    </Setting>
+    <Setting Name="SMTPPass" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">ol}z538r^C&amp;5</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

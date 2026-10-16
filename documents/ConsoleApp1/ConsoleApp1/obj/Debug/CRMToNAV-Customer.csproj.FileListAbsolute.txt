@@ -1,0 +1,52 @@
+C:\Users\loup.rouan\source\repos\ConsoleApp1\ConsoleApp1\bin\Debug\ConsoleApp1.exe.config
+C:\Users\loup.rouan\source\repos\ConsoleApp1\ConsoleApp1\bin\Debug\ConsoleApp1.exe
+C:\Users\loup.rouan\source\repos\ConsoleApp1\ConsoleApp1\bin\Debug\ConsoleApp1.pdb
+C:\Users\loup.rouan\source\repos\ConsoleApp1\ConsoleApp1\bin\Debug\EasyNetQ.dll
+C:\Users\loup.rouan\source\repos\ConsoleApp1\ConsoleApp1\bin\Debug\Microsoft.Diagnostics.Tracing.EventSource.dll
+C:\Users\loup.rouan\source\repos\ConsoleApp1\ConsoleApp1\bin\Debug\MySql.Data.dll
+C:\Users\loup.rouan\source\repos\ConsoleApp1\ConsoleApp1\bin\Debug\Newtonsoft.Json.dll
+C:\Users\loup.rouan\source\repos\ConsoleApp1\ConsoleApp1\bin\Debug\RabbitMQ.Client.dll
+C:\Users\loup.rouan\source\repos\ConsoleApp1\ConsoleApp1\bin\Debug\EasyNetQ.xml
+C:\Users\loup.rouan\source\repos\ConsoleApp1\ConsoleApp1\bin\Debug\Microsoft.Diagnostics.Tracing.EventSource.xml
+C:\Users\loup.rouan\source\repos\ConsoleApp1\ConsoleApp1\bin\Debug\MySql.Data.xml
+C:\Users\loup.rouan\source\repos\ConsoleApp1\ConsoleApp1\bin\Debug\Newtonsoft.Json.xml
+C:\Users\loup.rouan\source\repos\ConsoleApp1\ConsoleApp1\bin\Debug\RabbitMQ.Client.xml
+C:\Users\loup.rouan\source\repos\ConsoleApp1\ConsoleApp1\obj\Debug\CRMToNAV-Customer.csproj.CoreCompileInputs.cache
+C:\Users\loup.rouan\source\repos\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.exe
+C:\Users\loup.rouan\source\repos\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.pdb
+C:\Users\loup.rouan\source\repos\ConsoleApp1\ConsoleApp1\obj\Debug\CRMToNAV-Customer.csprojResolveAssemblyReference.cache
+E:\Dayan\Work\Task Documentations\Payment Schedule Integration\byLoupforRef\ConsoleApp1\ConsoleApp1\bin\Debug\ConsoleApp1.exe.config
+E:\Dayan\Work\Task Documentations\Payment Schedule Integration\byLoupforRef\ConsoleApp1\ConsoleApp1\bin\Debug\ConsoleApp1.exe
+E:\Dayan\Work\Task Documentations\Payment Schedule Integration\byLoupforRef\ConsoleApp1\ConsoleApp1\bin\Debug\ConsoleApp1.pdb
+E:\Dayan\Work\Task Documentations\Payment Schedule Integration\byLoupforRef\ConsoleApp1\ConsoleApp1\bin\Debug\EasyNetQ.dll
+E:\Dayan\Work\Task Documentations\Payment Schedule Integration\byLoupforRef\ConsoleApp1\ConsoleApp1\bin\Debug\Microsoft.Diagnostics.Tracing.EventSource.dll
+E:\Dayan\Work\Task Documentations\Payment Schedule Integration\byLoupforRef\ConsoleApp1\ConsoleApp1\bin\Debug\MySql.Data.dll
+E:\Dayan\Work\Task Documentations\Payment Schedule Integration\byLoupforRef\ConsoleApp1\ConsoleApp1\bin\Debug\Newtonsoft.Json.dll
+E:\Dayan\Work\Task Documentations\Payment Schedule Integration\byLoupforRef\ConsoleApp1\ConsoleApp1\bin\Debug\RabbitMQ.Client.dll
+E:\Dayan\Work\Task Documentations\Payment Schedule Integration\byLoupforRef\ConsoleApp1\ConsoleApp1\bin\Debug\EasyNetQ.xml
+E:\Dayan\Work\Task Documentations\Payment Schedule Integration\byLoupforRef\ConsoleApp1\ConsoleApp1\bin\Debug\Microsoft.Diagnostics.Tracing.EventSource.xml
+E:\Dayan\Work\Task Documentations\Payment Schedule Integration\byLoupforRef\ConsoleApp1\ConsoleApp1\bin\Debug\MySql.Data.xml
+E:\Dayan\Work\Task Documentations\Payment Schedule Integration\byLoupforRef\ConsoleApp1\ConsoleApp1\bin\Debug\Newtonsoft.Json.xml
+E:\Dayan\Work\Task Documentations\Payment Schedule Integration\byLoupforRef\ConsoleApp1\ConsoleApp1\bin\Debug\RabbitMQ.Client.xml
+E:\Dayan\Work\Task Documentations\Payment Schedule Integration\byLoupforRef\ConsoleApp1\ConsoleApp1\obj\Debug\CRMToNAV-Customer.csprojResolveAssemblyReference.cache
+E:\Dayan\Work\Task Documentations\Payment Schedule Integration\byLoupforRef\ConsoleApp1\ConsoleApp1\obj\Debug\CRMToNAV-Customer.csproj.CoreCompileInputs.cache
+E:\Dayan\Work\Task Documentations\Payment Schedule Integration\byLoupforRef\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.exe
+E:\Dayan\Work\Task Documentations\Payment Schedule Integration\byLoupforRef\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.pdb
+C:\Users\loup.rouan\Desktop\ConsoleApp1withPaySchIntegration\ConsoleApp1\ConsoleApp1\bin\Debug\ConsoleApp1.exe.config
+C:\Users\loup.rouan\Desktop\ConsoleApp1withPaySchIntegration\ConsoleApp1\ConsoleApp1\bin\Debug\ConsoleApp1.exe
+C:\Users\loup.rouan\Desktop\ConsoleApp1withPaySchIntegration\ConsoleApp1\ConsoleApp1\bin\Debug\ConsoleApp1.pdb
+C:\Users\loup.rouan\Desktop\ConsoleApp1withPaySchIntegration\ConsoleApp1\ConsoleApp1\bin\Debug\EasyNetQ.dll
+C:\Users\loup.rouan\Desktop\ConsoleApp1withPaySchIntegration\ConsoleApp1\ConsoleApp1\bin\Debug\Microsoft.Diagnostics.Tracing.EventSource.dll
+C:\Users\loup.rouan\Desktop\ConsoleApp1withPaySchIntegration\ConsoleApp1\ConsoleApp1\bin\Debug\MySql.Data.dll
+C:\Users\loup.rouan\Desktop\ConsoleApp1withPaySchIntegration\ConsoleApp1\ConsoleApp1\bin\Debug\Newtonsoft.Json.dll
+C:\Users\loup.rouan\Desktop\ConsoleApp1withPaySchIntegration\ConsoleApp1\ConsoleApp1\bin\Debug\RabbitMQ.Client.dll
+C:\Users\loup.rouan\Desktop\ConsoleApp1withPaySchIntegration\ConsoleApp1\ConsoleApp1\bin\Debug\EasyNetQ.xml
+C:\Users\loup.rouan\Desktop\ConsoleApp1withPaySchIntegration\ConsoleApp1\ConsoleApp1\bin\Debug\Microsoft.Diagnostics.Tracing.EventSource.xml
+C:\Users\loup.rouan\Desktop\ConsoleApp1withPaySchIntegration\ConsoleApp1\ConsoleApp1\bin\Debug\MySql.Data.xml
+C:\Users\loup.rouan\Desktop\ConsoleApp1withPaySchIntegration\ConsoleApp1\ConsoleApp1\bin\Debug\Newtonsoft.Json.xml
+C:\Users\loup.rouan\Desktop\ConsoleApp1withPaySchIntegration\ConsoleApp1\ConsoleApp1\bin\Debug\RabbitMQ.Client.xml
+C:\Users\loup.rouan\Desktop\ConsoleApp1withPaySchIntegration\ConsoleApp1\ConsoleApp1\obj\Debug\CRMToNAV-Customer.csproj.CoreCompileInputs.cache
+C:\Users\loup.rouan\Desktop\ConsoleApp1withPaySchIntegration\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.exe
+C:\Users\loup.rouan\Desktop\ConsoleApp1withPaySchIntegration\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.pdb
+C:\Users\loup.rouan\Desktop\ConsoleApp1withPaySchIntegration\ConsoleApp1\ConsoleApp1\obj\Debug\CRMToNAV-Customer.csproj.AssemblyReference.cache
+C:\Users\loup.rouan\Desktop\ConsoleApp1withPaySchIntegration\ConsoleApp1\ConsoleApp1\obj\Debug\CRMToNAV.DD2B425D.Up2Date

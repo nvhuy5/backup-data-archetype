@@ -1,0 +1,53 @@
+# Thông tin kết nối DB — tài khoản quản trị
+
+## MySQL - Datasource - Public
+
+```text
+Version: 5.7.42 (MySQL Community Server)
+Host: 172.188.81.84
+Port: 3306
+Database: analytics
+Username: root
+Password: 123456
+```
+
+## PostgreSQL - Datasource - Public
+
+```text
+Version: 18.6
+Host: 172.188.81.84
+Port: 5432
+Database: analytics
+Username: dataplatform
+Password: 123456
+```
+
+## SQL Server - Datasource - Public
+
+```text
+Version: SQL Server 2019 (RTM-CU32-GDR), build 15.0.4490.9
+Edition: Developer Edition (64-bit)
+Host: 172.188.81.84
+Port: 1433
+Username: sa
+Password: Archetype123!
+```
+
+## Kết nối server qua SSH - vm-archetype-datasource - public
+
+```text
+Host: 172.188.81.84
+User: azureuser
+Port: 22
+Key: vm-archetype-datasource_key.pem
+```
+
+## PostgreSQL Datawarehouse - Connect using vm-archetype-datasource - private
+
+```text
+Host: db-archetype-data-warehouse.postgres.database.azure.com
+Port: 5432
+User: root_archetype
+Pass: 12345678x@X
+```
+ 
