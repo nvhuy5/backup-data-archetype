@@ -140,4 +140,17 @@ from (
                 `stat`.`idstatus` = `hr`.`estatus`
             )
         )
-    )
+    );
+
+select hr.*, cat.title, cat.code, hct.name as contract_type 
+from hr_table_contract hr left join hr_menu_job_title jt on jt.idjt = hr.job_title_id
+left join hr_menu_employee_level cat on cat.employee_level_id = jt.employee_level_id
+left join hr_table_contract_type hct on hct.id_contract_type = hr.idcontracttype LIMIT 100000;
+
+SELECT ts.ide,ts.component_id,ts.contract_id,ts.proj_id,ts.validated,ts.employee_level,ts.department_id,tsp.phase_code, WEEK(ts.date) as week_number,ts.date as start_week_date,
+  tsp.type, tsp.name ,sum(ts.time) as time_spent
+FROM timesheet_entry_2015 ts 
+left join  timesheet_phase_2015 tsp on tsp.phase_id = ts.phase_id
+where date >= '2020-01-01'
+group by ts.ide,ts.component_id,ts.contract_id,ts.proj_id,ts.validated,ts.employee_level,ts.department_id,ts.date,tsp.type, tsp.name,tsp.phase_code
+LIMIT 1500000
