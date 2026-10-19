@@ -1,0 +1,43 @@
+Bật tính năng ghi binlog trên MySQL 5.7
+
+1. Cấu hình file my.cnf (hoặc my.ini)
+Bạn cần mở file cấu hình của MySQL (thường nằm ở /etc/mysql/my.cnf hoặc /etc/my.cnf trên Linux) và thêm/chỉnh sửa các tham số sau trong thẻ [mysqld]:
+
+[mysqld]
+# Bật ghi log binary và đặt tên file log (ví dụ: mysql-bin)
+log-bin = mysql-bin
+
+# Định danh duy nhất cho server của bạn (bắt buộc phải có và không trùng với replica nếu có)
+server-id = 1
+
+# Định dạng binlog: BẮT BUỘC dùng ROW để Python có thể đọc chi tiết từng dòng dữ liệu thay đổi
+binlog_format = ROW
+
+# (Tùy chọn) Thời gian tự động xóa binlog cũ để tránh đầy ổ cứng (ví dụ: giữ trong 7 ngày)
+expire_logs_days = 7
+
+# (Tùy chọn) Ghi kèm thông tin metadata nếu bạn cần đồng bộ schema chính xác
+binlog_row_image = FULL
+
+Lưu ý: Sau khi lưu file cấu hình, bạn phải khởi động lại (restart) dịch vụ MySQL để các thay đổi này có hiệu lực.
+bash
+
+sudo systemctl restart mysql
+
+2. Tạo User MySQL dành riêng cho Python đọc Binlog
+
+Chạy các lệnh SQL sau với quyền root:
+
+-- Tạo user mới (thay thế 'your_password' bằng mật khẩu mạnh)
+CREATE USER 'python_binlog'@'%' IDENTIFIED BY 'your_password';
+
+-- Cấp các quyền bắt buộc để đọc binlog và đồng bộ dữ liệu
+GRANT REPLICATION SLAVE, REPLICATION CLIENT, SELECT ON *.* TO 'python_binlog'@'%';
+
+-- Áp dụng thay đổi quyền
+FLUSH PRIVILEGES;
+
+3. Kiểm tra lại cấu hình trên MySQL
+SHOW VARIABLES LIKE 'log_bin';
+SHOW VARIABLES LIKE 'binlog_format';
+Nếu log_bin hiển thị là ON và binlog_format hiển thị là ROW thì cấu hình đã thành công.

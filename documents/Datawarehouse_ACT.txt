@@ -1,0 +1,45 @@
+Datawarehouse_ACT
+1. Delete the destination tables.
+delete from dbo.Dim_GLEntry;
+delete from dbo.Dim_GLSetup;
+delete from dbo.Dim_JobHistoryBudget;
+delete from dbo.Dim_JobLedgerEntry;
+delete from dbo.Dim_JobPlanningLines;
+delete from dbo.Dim_Jobs;
+delete from dbo.Dim_JobVariations;
+delete from dbo.Dim_CustLedgerEntries;
+delete from dbo.Dim_JobTaskLinesDepartmentPhaseWise;
+delete from dbo.Dim_JobWIPGLEntry;
+delete from dbo.Dim_WIPPOCHistory;
+delete from dbo.Fact_CurrencyExRate;
+delete from dbo.Dim_Resources;
+
+2. Execute task RealEstate offices
+Declare @BranchName nvarchar(50)
+SELECT [Entity_ID]
+      ,[Entity_Name]
+      ,[Entity_BranchName]
+      ,[IsActive]
+FROM [Datawarehouse_ACT].[dbo].[ACT_Entities] where  IsActive=1 and [Entity_BranchName] = 'RealEstate'
+
+The result is stored in variable: User::CompaniesToScan
+
+3. Foreach Loop Container
+Collection: User::CompaniesToScan
+Item: User::Office_RS, index = 1
+
+    1. Imports Jobs of REAL ESTATE:
+
+	select * from [dbo].[ACT_Entities]
+	select * from (select * from [dbo].[ACT_Entities]) [refTable] where [refTable].[Entity_Name] = ?
+
+	exec ACT_GetJobs 'Archetype Cambodia', User::SQLGetJobs_RS
+	
+	Add current office name: Updates column values using expressions
+	Office_Name @[User::Office_RS]
+
+	Lookup OfficeACT Id: SqlCommand: select * from [dbo].[ACT_Entities]
+
+	OLE DB Destination, [dbo].[Dim_Jobs]
+
+    2. Imports Job History Budget - RS:
