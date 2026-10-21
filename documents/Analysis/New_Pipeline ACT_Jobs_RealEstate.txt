@@ -1,0 +1,33 @@
+Pipeline: ACT_Jobs_RealEstate
+
+Full Load:
+
+- Get full data from Datawarehouse_ACT:
+dbo.Dim_GLEntry
+dbo.Dim_GLSetup
+dbo.Dim_JobHistoryBudget
+dbo.Dim_JobLedgerEntry
+dbo.Dim_JobPlanningLines
+dbo.Dim_Jobs
+dbo.Dim_JobVariations
+dbo.Dim_CustLedgerEntries
+dbo.Dim_JobTaskLinesDepartmentPhaseWise
+dbo.Dim_JobWIPGLEntry
+dbo.Dim_WIPPOCHistory
+dbo.Fact_CurrencyExRate
+dbo.Dim_Resources
+
+[Datawarehouse_ACT].[dbo].[ACT_Entities]
+
+
+Incremental Load:
+
+step1:
+SELECT [Entity_ID]
+      ,[Entity_Name]
+      ,[Entity_BranchName]
+      ,[IsActive]
+      ,[Office_ID]
+FROM [Datawarehouse_ACT].[dbo].[ACT_Entities] where IsActive = 1 and [Entity_BranchName] = 'RealEstate'
+
+step2: update data for [Datawarehouse_ACT].[dbo].[Dim_Jobs]

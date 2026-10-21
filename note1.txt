@@ -1,0 +1,41 @@
+Database type	MySQL 5.7
+Host	10.0.1.110
+Port	3306
+Database	archetype_intranet
+Username	tma_usr
+Password: tjlIHetluXz12ocDUtwg0y
+
+Database type MySQL 5.7 - SHIR
+Host: 10.0.1.110
+Port: 3306
+Database: archetype_intranet
+Username: dwh-extract
+Password: Secret name: intranet-mysql-dwh-extract-pass
+
+MSSQL
+ip: 10.84.0.81
+port: 1433
+
+SHIR RDP Information:
+IP: 10.0.3.4
+user: azureuser
+pass: zUJxVCFuZhp5wvGOeAXsHnT1mDIci0lS
+
+Azure PostgreSQL:
+- ip: 10.0.2.7;psql-dw-pr-ea.postgres.database.azure.com
+- port: 5432
+- user: postgr
+- pass: 0XF3B84mlJrE6opujqsYCaKQUNWeM5ft
+
+Test-NetConnection -ComputerName "IP_HOAC_HOST" -Port 3306
+
+https://archetypevn.sharepoint.com/sites/itis-new-data-warehouse/Shared%20Documents/Forms/AllItems.aspx
+
+https://portal.azure.com/#@archetype-group.com/resource/subscriptions/8f6dbdaf-932a-459a-9de5-4d3bcbe2e309/resourceGroups/AG-Data/overview
+
+https://linkprotect.cudasvc.com/url?a=https%3a%2f%2farchetypevn.sharepoint.com%2f%3ax%3a%2fr%2fsites%2fitis-new-data-warehouse%2fShared%20Documents%2fDatabase%20description%2fSource%20Table%20Information.xlsx%3fd%3dw47b944afacb345ccaa9e8bb8af1a4f6b%26e%3d4%253a2edfeb262ff64477ab4db47e3c38201f%26sharingv2%3dtrue%26fromShare%3dtrue%26at%3d9&c=E,1,t6UYwT81Zw-PFRQCdPxDhaj8asRHVHZJvAiuPZxZ2fR-nPRdpPpSjDrisRd6SrJnbbQ-u3e4gLtc-kbIRmLMx23GCwuZgAcGur0Lt9PxXGgQ9C6knHerkygNYfs,&typo=1
+
+SHIR
+key1: IR@fc41011b-d7d0-4ecc-be42-f7cede791917@adf-dw-pr-ea@ServiceEndpoint=adf-dw-pr-ea.eastasia.datafactory.azure.net@msvfARjyTn7OX5Ch7v3ri65OHytU3E+Sk2uhUy2Kcm0=
+
+key2: IR@fc41011b-d7d0-4ecc-be42-f7cede791917@adf-dw-pr-ea@ServiceEndpoint=adf-dw-pr-ea.eastasia.datafactory.azure.net@IkuJGelXuA76umxlSGSLlGoqD45vDs460oV096ztkkQ=

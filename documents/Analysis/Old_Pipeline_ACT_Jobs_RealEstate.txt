@@ -1,0 +1,273 @@
+Datawarehouse_ACT
+1. Delete the destination tables.
+delete from dbo.Dim_GLEntry;
+delete from dbo.Dim_GLSetup;
+delete from dbo.Dim_JobHistoryBudget;
+delete from dbo.Dim_JobLedgerEntry;
+delete from dbo.Dim_JobPlanningLines;
+delete from dbo.Dim_Jobs;
+delete from dbo.Dim_JobVariations;
+delete from dbo.Dim_CustLedgerEntries;
+delete from dbo.Dim_JobTaskLinesDepartmentPhaseWise;
+delete from dbo.Dim_JobWIPGLEntry;
+delete from dbo.Dim_WIPPOCHistory;
+delete from dbo.Fact_CurrencyExRate;
+delete from dbo.Dim_Resources;
+
+2. Execute task RealEstate offices
+Declare @BranchName nvarchar(50)
+SELECT [Entity_ID]
+      ,[Entity_Name]
+      ,[Entity_BranchName]
+      ,[IsActive]
+FROM [Datawarehouse_ACT].[dbo].[ACT_Entities] where IsActive = 1 and [Entity_BranchName] = 'RealEstate'
+
+The result is stored in variable: User::CompaniesToScan
+
+3. Foreach Loop Container
+Collection: User::CompaniesToScan
+Item: User::Office_RS, index = 1
+
+    1. Imports Jobs of REAL ESTATE:
+	
+	From Archetype DB
+	"exec ACT_GetJobs '" + @[User::Office_RS] +"'", User::SQLGetJobs_RS, ex: exec ACT_GetJobs 'Archetype Cambodia'
+
+	Add current office name: Updates column values using expressions
+	Office_Name @[User::Office_RS]
+
+	Lookup OfficeACT Id: SqlCommand: select * from [Datawarehouse_ACT].[dbo].[ACT_Entities]
+
+	select * from [dbo].[ACT_Entities]
+	select * from (select * from [dbo].[ACT_Entities]) [refTable] where [refTable].[Entity_Name] = ? User::Office_RS
+
+	SELECT Entity_ID
+	FROM Datawarehouse_ACT.dbo.ACT_Entities
+	WHERE Entity_Name = 'ABC Real Estate';
+
+	Add Entity_ID to collection
+
+	OLE DB Destination, [Datawarehouse_ACT].[dbo].[Dim_Jobs]
+
+    2. Imports Job History Budget - RS:
+	
+	User::SQLGetJobHisBud_RS = "exec ACT_GetJobHisBudget '" + @[User::Office_RS] +"'"
+	Add current office name: Office_Name @[User::Office_RS]
+	Lookup OfficeACT Id, Tìm Entity_ID theo đk khớp Entity_Name, Add Entity_ID to collection
+	OLE DB Destination, [Datawarehouse_ACT].[dbo].[Dim_JobHistoryBudget]
+
+    3. JLE - RS
+	User::SQLGetJLE_RS = "exec ACT_GetJobLedgerEntry '" + @[User::Office_RS] +"'"
+
+	Add current office name:
+	Office_Name: @[User::Office_RS]
+	Dept_Code, Dept_Code == "" ? JT_Dept_Code : Dept_Code
+	Phase_Code, Phase_Code == "" ? JT_Phase_Code : Phase_Code
+
+	Lookup OfficeACT Id, Tìm Entity_ID theo đk khớp Entity_Name, Add Entity_ID to collection
+	OLE DB Destination, [Datawarehouse_ACT].[dbo].[Dim_JobLedgerEntry]
+
+    4. JPL - RS
+	"exec ACT_GetJobPlanningLines '" + @[User::Office_RS] +"'"   <=>  exec ACT_GetJobPlanningLines 'Archetype Cambodia'
+	Add current office name: Office_Name @[User::Office_RS]
+	Lookup OfficeACT Id, Tìm Entity_ID theo đk khớp Entity_Name, Add Entity_ID to collection
+	OLE DB Destination, [Datawarehouse_ACT].[dbo].[Dim_JobPlanningLines]
+
+    5. Cust Leder Entries - RS
+	"exec ACT_GetCustLedgerEntries '" + @[User::Office_RS] +"'"  <=>  exec ACT_GetCustLedgerEntries 'Archetype Cambodia'
+	Add current office name: Office_Name @[User::Office_RS]
+	Lookup OfficeACT Id, Tìm Entity_ID theo đk khớp Entity_Name, Add Entity_ID to collection
+	OLE DB Destination, [Datawarehouse_ACT].[dbo].[Dim_CustLedgerEntries]
+
+    6. Job Variation - RS
+	"ACT_GetJobVariations '" + @[User::Office_RS] +"'"  <=>  ACT_GetJobVariations 'Archetype Cambodia'
+	Add current office name: Office_Name @[User::Office_RS]
+	Lookup OfficeACT Id, Tìm Entity_ID theo đk khớp Entity_Name, Add Entity_ID to collection
+	OLE DB Destination, [Datawarehouse_ACT].[dbo].[Dim_JobVariations]
+
+    7. GL Setup - RS
+	"exec ACT_GetGLSetup '" + @[User::Office_RS] +"'"  <=>  exec ACT_GetGLSetup 'Archetype Cambodia'
+	Add current office name: Office_Name @[User::Office_RS]
+	Lookup OfficeACT Id, Tìm Entity_ID theo đk khớp Entity_Name, Add Entity_ID to collection
+	OLE DB Destination, [Datawarehouse_ACT].[dbo].[Dim_GLSetup]
+
+    8. GL Entry - RS
+	User::SQLGetGLEntry_RS, "exec ACT_GetGLEntry '" + @[User::Office_RS] +"'"  <=> exec ACT_GetGLEntry 'Archetype Cambodia'
+	Add current office name: Office_Name @[User::Office_RS]
+	Lookup OfficeACT Id, Tìm Entity_ID theo đk khớp Entity_Name, Add Entity_ID to collection
+	OLE DB Destination, [Datawarehouse_ACT].[dbo].[Dim_GLEntry]
+
+    9. Job Task Lines DeptPhaseWise - RS
+	User::SQLGetJTLDeptPhaseWise_RS, "exec ACT_GetJobTaskLinesDeptPhaseWise '" + @[User::Office_RS] +"'"
+	exec ACT_GetJobTaskLinesDeptPhaseWise 'Archetype Cambodia'
+
+	Add current office name: Office_Name @[User::Office_RS]
+	Lookup OfficeACT Id, Tìm Entity_ID theo đk khớp Entity_Name, Add Entity_ID to collection
+	OLE DB Destination, [Datawarehouse_ACT].[dbo].[Dim_JobTaskLinesDepartmentPhaseWise]
+    
+    10. Job WIP GL - RS
+	User::SQLGetJobWIPGL_RS, exec ACT_GetJobWIPGLEntry 'Archetype Cambodia'
+	"exec ACT_GetJobWIPGLEntry '" + @[User::Office_RS] +"'"
+	
+	Add current office name: Office_Name @[User::Office_RS]
+	Lookup OfficeACT Id, Tìm Entity_ID theo đk khớp Entity_Name, Add Entity_ID to collection
+	OLE DB Destination, [Datawarehouse_ACT].[dbo].[Dim_JobWIPGLEntry]
+
+    11. WIP POC History - RS
+	User::SQLGetWIPPOC_RS, exec ACT_GetWIPPOCHistory 'Archetype Cambodia'
+	"exec ACT_GetWIPPOCHistory '" + @[User::Office_RS] +"'"
+
+	Add current office name: Office_Name @[User::Office_RS]
+	Lookup OfficeACT Id, Tìm Entity_ID theo đk khớp Entity_Name, Add Entity_ID to collection
+	OLE DB Destination, [Datawarehouse_ACT].[dbo].[Dim_WIPPOCHistory]
+
+    12. Currency Ex Rate - RS
+	User::SQLGetCurrExRate_RS, exec ACT_GetCurrencyExchangeRate 'Archetype Cambodia'
+	"exec ACT_GetCurrencyExchangeRate '" + @[User::Office_RS] +"'"
+	Add current office name: Office_Name @[User::Office_RS]
+	Lookup OfficeACT Id, Tìm Entity_ID theo đk khớp Entity_Name, Add Entity_ID to collection
+	OLE DB Destination, [Datawarehouse_ACT].[dbo].[Fact_CurrencyExRate]
+
+    13. 1 Imports Jobs of REAL ESTATE 1
+	User::SQLGetResources_RS, exec ACT_GetResources 'Archetype Cambodia'
+	"exec ACT_GetResources '" + @[User::Office_RS] +"'"
+	Add current office name: Office_Name @[User::Office_RS]
+	Lookup OfficeACT Id, Tìm Entity_ID theo đk khớp Entity_Name, Add Entity_ID to collection
+	OLE DB Destination, [Datawarehouse_ACT].[dbo].[Dim_Resources]
+
+4. Execute task Industry
+Declare @BranchName nvarchar(50)
+SELECT [Entity_ID]
+      ,[Entity_Name]
+      ,[Entity_BranchName]
+      ,[IsActive]
+FROM [Datawarehouse_ACT].[dbo].[ACT_Entities] where Entity_BranchName = 'Industry' and IsActive = 1 
+
+The result is stored in variable: User::CompaniesToScan
+
+5. Foreach Loop Container
+Collection: User::CompaniesToScan
+Item: @[User::Office_Ind], index = 1
+
+    1. Imports Jobs of Industry
+	From ArchetypeEngineeringLive DB
+	User::SQLGetJobs_Ind, exec ACT_GetJobs 'Archetype Industry China'
+	"exec ACT_GetJobs '" + @[User::Office_Ind] +"'"
+
+	Add current office name: Office_Name @[User::Office_Ind]
+	Lookup OfficeACT Id, Tìm Entity_ID theo đk khớp Entity_Name, Add Entity_ID to collection
+	OLE DB Destination, [Datawarehouse_ACT].[dbo].[Dim_Jobs]
+
+    2. Imports Job History Budget - Ind
+
+	From ArchetypeEngineeringLive DB
+	User::SQLGetJobHisBud_Ind, exec ACT_GetJobHisBudget 'Archetype Industry China'
+	"exec ACT_GetJobHisBudget '" + @[User::Office_Ind] +"'"
+
+	Add current office name: Office_Name @[User::Office_Ind]
+	Lookup OfficeACT Id, Tìm Entity_ID theo đk khớp Entity_Name, Add Entity_ID to collection
+	OLE DB Destination, [Datawarehouse_ACT].[dbo].[Dim_JobHistoryBudget]
+
+    3. JLE - Ind
+	
+	From ArchetypeEngineeringLive DB
+	User::SQLGetJLE_Ind, exec ACT_GetJobLedgerEntry 'Archetype Industry China'
+	"exec ACT_GetJobLedgerEntry '" + @[User::Office_Ind] +"'"
+
+	Add current office name:
+	Office_Name: @[User::Office_Ind]
+	Dept_Code, Dept_Code == "" ? JT_Dept_Code : Dept_Code
+	Phase_Code, Phase_Code == "" ? JT_Phase_Code : Phase_Code
+
+	Lookup OfficeACT Id, Tìm Entity_ID theo đk khớp Entity_Name, Add Entity_ID to collection
+	OLE DB Destination, [Datawarehouse_ACT].[dbo].[Dim_JobLedgerEntry]
+
+    4. JPL - Ind
+	From ArchetypeEngineeringLive DB
+	User::SQLGetJPL_Ind, exec ACT_GetJobPlanningLines 'Archetype Industry China'
+	"exec ACT_GetJobPlanningLines '" + @[User::Office_Ind] +"'"
+
+	Add current office name: Office_Name @[User::Office_Ind]
+	Lookup OfficeACT Id, Tìm Entity_ID theo đk khớp Entity_Name, Add Entity_ID to collection
+	OLE DB Destination, [Datawarehouse_ACT].[dbo].[Dim_JobPlanningLines]
+	
+    5. Cust Leder Entries - Ind
+	From ArchetypeEngineeringLive DB
+	User::SQLGetCustLedger_Ind, exec ACT_GetCustLedgerEntries 'Archetype Industry China'
+	"exec ACT_GetCustLedgerEntries '" + @[User::Office_Ind] +"'"
+
+	Add current office name: Office_Name @[User::Office_Ind]
+	Lookup OfficeACT Id, Tìm Entity_ID theo đk khớp Entity_Name, Add Entity_ID to collection
+	OLE DB Destination, [Datawarehouse_ACT].[dbo].[Dim_CustLedgerEntries]
+
+    6. Job Variation - Ind
+	From ArchetypeEngineeringLive DB
+	User::SQLGetJobVariation_Ind, exec ACT_GetJobVariations 'Archetype Industry China'
+	"exec ACT_GetJobVariations '" + @[User::Office_Ind] +"'"
+
+	Add current office name: Office_Name @[User::Office_Ind]
+	Lookup OfficeACT Id, Tìm Entity_ID theo đk khớp Entity_Name, Add Entity_ID to collection
+	OLE DB Destination, [Datawarehouse_ACT].[dbo].[Dim_JobVariations]
+    
+    7. GL Setup - Ind
+	From ArchetypeEngineeringLive DB
+	User::SQLGetGLSetup_Ind, exec ACT_GetGLSetup 'Archetype Industry China'
+	"exec ACT_GetGLSetup '" + @[User::Office_Ind] +"'"
+
+	Add current office name: Office_Name @[User::Office_Ind]
+	Lookup OfficeACT Id, Tìm Entity_ID theo đk khớp Entity_Name, Add Entity_ID to collection
+	OLE DB Destination, [Datawarehouse_ACT].[dbo].[Dim_GLSetup]
+
+    8. GL Entry - Ind
+	From ArchetypeEngineeringLive DB
+	User::SQLGetGLEntry_Ind, exec ACT_GetGLEntry 'Archetype Industry China'
+	"exec ACT_GetGLEntry '" + @[User::Office_Ind] +"'"
+
+	Add current office name: Office_Name @[User::Office_Ind]
+	Lookup OfficeACT Id, Tìm Entity_ID theo đk khớp Entity_Name, Add Entity_ID to collection
+	OLE DB Destination, [Datawarehouse_ACT].[dbo].[Dim_GLEntry]
+
+    9. Job Task Lines DeptPhaseWise - Ind
+	From ArchetypeEngineeringLive DB
+	User::SQLGetJTLDeptPhaseWise_Ind, exec ACT_GetJobTaskLinesDeptPhaseWise 'Archetype Industry China'
+	"exec ACT_GetJobTaskLinesDeptPhaseWise '" + @[User::Office_Ind] +"'"
+
+	Add current office name: Office_Name @[User::Office_Ind]
+	Lookup OfficeACT Id, Tìm Entity_ID theo đk khớp Entity_Name, Add Entity_ID to collection
+	OLE DB Destination, [Datawarehouse_ACT].[dbo].[Dim_JobTaskLinesDepartmentPhaseWise]
+
+    10. Job WIP GL - Ind
+	From ArchetypeEngineeringLive DB
+	User::SQLGetJobWIPGL_Ind, exec ACT_GetJobWIPGLEntry 'Archetype Industry China'
+	"exec ACT_GetJobWIPGLEntry '" + @[User::Office_Ind] +"'"
+
+	Add current office name: Office_Name @[User::Office_Ind]
+	Lookup OfficeACT Id, Tìm Entity_ID theo đk khớp Entity_Name, Add Entity_ID to collection
+	OLE DB Destination, [Datawarehouse_ACT].[dbo].[Dim_JobWIPGLEntry]
+
+    11. WIP POC History - Ind
+	From ArchetypeEngineeringLive DB
+	User::SQLGetWIPPOC_Ind, exec ACT_GetWIPPOCHistory 'Archetype Industry China'
+	"exec ACT_GetWIPPOCHistory '" + @[User::Office_Ind] +"'"
+
+	Add current office name: Office_Name @[User::Office_Ind]
+	Lookup OfficeACT Id, Tìm Entity_ID theo đk khớp Entity_Name, Add Entity_ID to collection
+	OLE DB Destination, [Datawarehouse_ACT].[dbo].[Dim_WIPPOCHistory]
+
+    12. Currency Ex Rate - Ind
+	From ArchetypeEngineeringLive DB
+	User::SQLGetCurrExRate_Ind, exec ACT_GetCurrencyExchangeRate 'Archetype Industry China'
+	"exec ACT_GetCurrencyExchangeRate '" + @[User::Office_Ind] +"'"
+
+	Add current office name: Office_Name @[User::Office_Ind]
+	Lookup OfficeACT Id, Tìm Entity_ID theo đk khớp Entity_Name, Add Entity_ID to collection
+	OLE DB Destination, [Datawarehouse_ACT].[dbo].[Fact_CurrencyExRate]
+
+    13. Imp Resour ce Ind
+	From ArchetypeEngineeringLive DB
+	User::SQLGetResources_RS, exec ACT_GetResources 'Archetype Industry China'
+	"exec ACT_GetResources '" + @[User::Office_Ind] +"'"
+
+	Add current office name: Office_Name @[User::Office_Ind]
+	Lookup OfficeACT Id, Tìm Entity_ID theo đk khớp Entity_Name, Add Entity_ID to collection
+	OLE DB Destination, [Datawarehouse_ACT].[dbo].[Dim_Resources]

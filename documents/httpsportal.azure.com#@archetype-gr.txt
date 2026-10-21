@@ -1,1 +1,0 @@
-https://portal.azure.com/#@archetype-group.com/resource/subscriptions/8f6dbdaf-932a-459a-9de5-4d3bcbe2e309/resourceGroups/AG-Data/overview
